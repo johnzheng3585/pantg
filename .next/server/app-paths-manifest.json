@@ -1,0 +1,21 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/api/cloudreve-meta/route": "app/api/cloudreve-meta/route.js",
+  "/s/[id]/[[...path]]/page": "app/s/[id]/[[...path]]/page.js",
+  "/callback/desktop/page": "app/callback/desktop/page.js",
+  "/api/cloudreve/[...path]/route": "app/api/cloudreve/[...path]/route.js",
+  "/(auth)/forgot-password/page": "app/(auth)/forgot-password/page.js",
+  "/(auth)/register/page": "app/(auth)/register/page.js",
+  "/(drive)/dashboard/page": "app/(drive)/dashboard/page.js",
+  "/(auth)/login/page": "app/(auth)/login/page.js",
+  "/(auth)/reset-password/page": "app/(auth)/reset-password/page.js",
+  "/(drive)/billing/page": "app/(drive)/billing/page.js",
+  "/(drive)/files/[...path]/page": "app/(drive)/files/[...path]/page.js",
+  "/(drive)/shares/page": "app/(drive)/shares/page.js",
+  "/(drive)/trash/[...path]/page": "app/(drive)/trash/[...path]/page.js",
+  "/(drive)/files/page": "app/(drive)/files/page.js",
+  "/(drive)/trash/page": "app/(drive)/trash/page.js",
+  "/(drive)/settings/page": "app/(drive)/settings/page.js",
+  "/(drive)/workflow/page": "app/(drive)/workflow/page.js"
+}
