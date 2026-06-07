@@ -6,8 +6,8 @@
   "build": {
     "frontendDist": "../ui/dist",
     "devUrl": "http://localhost:5173",
-    "beforeDevCommand": "cd ui && yarn run dev",
-    "beforeBuildCommand": "cd ui && yarn run build"
+    "beforeDevCommand": "cd ../ui && yarn run dev",
+    "beforeBuildCommand": "cd ../ui && yarn run build"
   },
   "app": {
     "windows": [
