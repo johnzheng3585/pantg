@@ -35,12 +35,14 @@ jobs:
 
       - name: Build desktop app
         working-directory: Desktop
-        run: npx --yes @tauri-apps/cli@2.9.5 build
+        run: npx --yes @tauri-apps/cli@2.9.5 build --bundles nsis
 
       - name: Upload desktop artifacts
         uses: actions/upload-artifact@v4
         with:
           name: tangguopan-desktop-windows
           path: |
+            Desktop/src-tauri/target/release/*.exe
             Desktop/src-tauri/target/release/bundle/**
+            Desktop/target/release/*.exe
             Desktop/target/release/bundle/**
