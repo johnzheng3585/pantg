@@ -1,5 +1,5 @@
 [package]
-name = "cloudreve-desktop"
+name = "tgpan-desktop"
 version = "0.2.0"
 description = "糖果盘桌面同步客户端"
 authors = ["糖果盘"]
